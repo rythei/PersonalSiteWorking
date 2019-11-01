@@ -11,7 +11,7 @@ I am a Ph.D. student at U.C. Berkeley interested in statistics and machine learn
 I love to travel and spend as much time outdoors as possible. I always take my camera with me wherever I go - feel free to check out some of my [photos](https://www.instagram.com/rythei).
 
 ## Research
-Since coming to Berkeley, I have been primarily interested in various theoretical aspects of deep learning, though lately this has mainly been focused on the question of _generalization_. Namely, I'm interested in when and how we can fit extremely complicated and expressive models to data, and expect these models to perform well on new, unseen data. This is particularly relevant in big deep learning models which have become very popular.
+Since coming to Berkeley, I have been primarily interested in various theoretical aspects of deep learning, though lately this has mainly been focused on the question of _generalization_. Namely, I'm interested in when and how we can fit extremely complicated and expressive models to data, and expect these models to perform well on new, unseen data. 
 
 Below is a list of papers I've co-authored.
 
