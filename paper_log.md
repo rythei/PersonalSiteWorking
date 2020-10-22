@@ -7,9 +7,9 @@ layout: post
 
 ### Influence functions
 
-####[Influence Functions in Deep Learning Are Fragile ](https://arxiv.org/pdf/2006.14651.pdf)
+#### [Influence Functions in Deep Learning Are Fragile ](https://arxiv.org/pdf/2006.14651.pdf)
 
-####[Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
+#### [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
 
 Pang Wei Koh, Percy Liang
 
@@ -93,7 +93,7 @@ Pang Wei Koh, Percy Liang
 
 #### [On the linearity of large non-linear models: when and why the tangent kernel is constant](https://arxiv.org/pdf/2010.01092.pdf)
 
-####  [Towards Explaining the Regularization Effect of Initial Large Learning Rate in Training Neural Networks ](https://arxiv.org/pdf/1907.04595.pdf)
+#### [Towards Explaining the Regularization Effect of Initial Large Learning Rate in Training Neural Networks ](https://arxiv.org/pdf/1907.04595.pdf)
 
 Chaoyue Liu, Libin Zhu, Mikhail Belkin
 
