@@ -41,19 +41,19 @@ Pang Wei Koh, Percy Liang
 
 ### Classification theory
 
-####[Classification vs regression in overparameterized regimes: Does the loss function matter?](https://arxiv.org/pdf/2005.08054.pdf)
+#### [Classification vs regression in overparameterized regimes: Does the loss function matter?](https://arxiv.org/pdf/2005.08054.pdf)
 
-####[On the proliferation of support vectors in high dimensions ](https://arxiv.org/pdf/2009.10670.pdf)
+#### [On the proliferation of support vectors in high dimensions ](https://arxiv.org/pdf/2009.10670.pdf)
 
-####[The generalization error of max-margin linear classifiers: High-dimensional asymptotics in the overparametrized regime ](https://arxiv.org/pdf/1911.01544.pdf)
+#### [The generalization error of max-margin linear classifiers: High-dimensional asymptotics in the overparametrized regime ](https://arxiv.org/pdf/1911.01544.pdf)
 
-####[The Phase Transition for the Existence of the Maximum Likelihood Estimate in High-dimensional Logistic Regression](https://arxiv.org/pdf/1804.09753.pdf)
+#### [The Phase Transition for the Existence of the Maximum Likelihood Estimate in High-dimensional Logistic Regression](https://arxiv.org/pdf/1804.09753.pdf)
 
-####[LIVING ON THE EDGE: PHASE TRANSITIONS IN CONVEX PROGRAMS WITH RANDOM DATA](https://arxiv.org/pdf/1303.6672.pdf)
+#### [LIVING ON THE EDGE: PHASE TRANSITIONS IN CONVEX PROGRAMS WITH RANDOM DATA](https://arxiv.org/pdf/1303.6672.pdf)
 
-####[A Study in Rashomon Curves and Volumes: A New Perspective on Generalization and Model Simplicity in Machine Learning ](https://arxiv.org/pdf/1908.01755.pdf)
+#### [A Study in Rashomon Curves and Volumes: A New Perspective on Generalization and Model Simplicity in Machine Learning ](https://arxiv.org/pdf/1908.01755.pdf)
 
-####[Stochastic Gradient Descent as Approximate Bayesian Inference ](https://arxiv.org/pdf/1704.04289.pdf)
+#### [Stochastic Gradient Descent as Approximate Bayesian Inference ](https://arxiv.org/pdf/1704.04289.pdf)
 
 
 
@@ -83,17 +83,17 @@ Pang Wei Koh, Percy Liang
 - Simon Du talk: [link](https://www.youtube.com/watch?v=HvEGJUwQEO8)
 - Lecture from UMD: [link](https://www.youtube.com/watch?v=DObobAnELkU)
 
-####[On Exact Computation with an Infinitely Wide Neural Net](https://arxiv.org/pdf/1904.11955.pdf)
+#### [On Exact Computation with an Infinitely Wide Neural Net](https://arxiv.org/pdf/1904.11955.pdf)
 
-####[Beyond Linearization: On Quadratic and Higher-Order Approximation of Wide Neural Networks](https://arxiv.org/pdf/1910.01619.pdf)
+#### [Beyond Linearization: On Quadratic and Higher-Order Approximation of Wide Neural Networks](https://arxiv.org/pdf/1910.01619.pdf)
 
-####[Learning Overparameterized Neural Networks via Stochastic Gradient Descent on Structured Data](https://papers.nips.cc/paper/8038-learning-overparameterized-neural-networks-via-stochastic-gradient-descent-on-structured-data.pdf)
+#### [Learning Overparameterized Neural Networks via Stochastic Gradient Descent on Structured Data](https://papers.nips.cc/paper/8038-learning-overparameterized-neural-networks-via-stochastic-gradient-descent-on-structured-data.pdf)
 
-####[What Can ResNet Learn Efficiently, Going Beyond Kernels?](https://arxiv.org/pdf/1905.10337.pdf)
+#### [What Can ResNet Learn Efficiently, Going Beyond Kernels?](https://arxiv.org/pdf/1905.10337.pdf)
 
-####[On the linearity of large non-linear models: when and why the tangent kernel is constant](https://arxiv.org/pdf/2010.01092.pdf)
+#### [On the linearity of large non-linear models: when and why the tangent kernel is constant](https://arxiv.org/pdf/2010.01092.pdf)
 
-#### [Towards Explaining the Regularization Effect of Initial Large Learning Rate in Training Neural Networks ](https://arxiv.org/pdf/1907.04595.pdf)
+####  [Towards Explaining the Regularization Effect of Initial Large Learning Rate in Training Neural Networks ](https://arxiv.org/pdf/1907.04595.pdf)
 
 Chaoyue Liu, Libin Zhu, Mikhail Belkin
 
