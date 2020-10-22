@@ -1,3 +1,4 @@
+---
 layout: post
 ---
 [back](./)
@@ -18,16 +19,16 @@ Pang Wei Koh, Percy Liang
 
 - Introduces method for approximating the _influence_ of removing an individual point during training:
 - Define:
-  - $\hat{\theta} = \arg\min_\theta \frac{1}{n}\sum_{i=1}^n L(z_i, \theta)$
-  - $\hat\theta_{-z} = \arg\min_\theta \frac{1}{n}\sum_{z_i\neq z} L(z_i, \theta)$
+  - $$\hat{\theta} = \arg\min_\theta \frac{1}{n}\sum_{i=1}^n L(z_i, \theta)$$
+  - $$\hat\theta_{-z} = \arg\min_\theta \frac{1}{n}\sum_{z_i\neq z} L(z_i, \theta)$$
 
-- The change in the parameters from removing $z$ is clearly just $\hat{\theta}_{-z}-\hat{\theta}$. The authors approximate this change by computing the 'influence' of $z$ on the parameters:
-  - $\hat{\theta}_{\epsilon,z} = \arg\min_\theta \frac{1}{n}\sum_{i=1}^n L(z_i,\theta) + \epsilon L(z,\theta)$ (error upweighting $z$ by $\epsilon$)
-  - $\mathcal{I}_{up,params}(z) = \frac{d\hat{\theta}_{\epsilon,z}}{d\epsilon}\Big|_{\epsilon=0} = -H_\theta^{-1}\nabla L(z,\hat{\theta})$ (take a newton step starting at $\hat{\theta}$ and measure the change)
-- Removing the point $z$ is equivalent to setting $\epsilon = -\frac{1}{n}$, and so we can approximate $\hat{\theta}_{-z}-\hat{\theta} \approx -\frac{1}{n}\mathcal{I}_{up,params}(z)$.
-- Using the same idea + the chain rule, we can also calculate how much removing $z$ changes functions of $\hat{\theta}$. In particular, we consider the function $L(z_{test}, \hat{\theta})$ for some testing point $z_{test}$:
-  - $\mathcal{I}_{up,loss}(z,z_{test}) = -\nabla L(z_{test},\hat{\theta})^\top H_\theta^{-1}\nabla L(z,\hat{\theta})$
-- This gives us a metric for finding the point "nearest" to a given testing point $z_{test}$, relative to a particular task, i.e. we can just look at $z_{nearest} = \arg\min_{z\in S_{train}} \mathcal{I}_{up,loss}(z,z_{test})$.
+- The change in the parameters from removing $z$ is clearly just $$\hat{\theta}_{-z}-\hat{\theta}$$. The authors approximate this change by computing the 'influence' of $z$ on the parameters:
+  - $$\hat{\theta}_{\epsilon,z} = \arg\min_\theta \frac{1}{n}\sum_{i=1}^n L(z_i,\theta) + \epsilon L(z,\theta)$$ (error upweighting $$z$$ by $$\epsilon$$)
+  - $$\mathcal{I}_{up,params}(z) = \frac{d\hat{\theta}_{\epsilon,z}}{d\epsilon}\Big|_{\epsilon=0} = -H_\theta^{-1}\nabla L(z,\hat{\theta})$$ (take a newton step starting at $\hat{\theta}$ and measure the change)
+- Removing the point $$z$$ is equivalent to setting $$\epsilon = -\frac{1}{n}$$, and so we can approximate $$\hat{\theta}_{-z}-\hat{\theta} \approx -\frac{1}{n}\mathcal{I}_{up,params}(z)$$.
+- Using the same idea + the chain rule, we can also calculate how much removing $z$ changes functions of $$\hat{\theta}$$. In particular, we consider the function $$L(z_{test}, \hat{\theta})$ for some testing point $z_{test}$$:
+  - $$\mathcal{I}_{up,loss}(z,z_{test}) = -\nabla L(z_{test},\hat{\theta})^\top H_\theta^{-1}\nabla L(z,\hat{\theta})$$
+- This gives us a metric for finding the point "nearest" to a given testing point $$z_{test}$$, relative to a particular task, i.e. we can just look at $$z_{nearest} = \arg\min_{z\in S_{train}} \mathcal{I}_{up,loss}(z,z_{test})$$.
   - Can give explicit form for this in the case of logistic regression
 
 **Methodology + experiments**
@@ -67,15 +68,15 @@ Pang Wei Koh, Percy Liang
   K_m(x,x') = \nabla f(x, W(0))^\top \nabla f(x', W(0))
   $$
 
-- It turns out that if the weights are initialized with variance $O(1/m)$, then a law of large number argument shows that
+- It turns out that if the weights are initialized with variance $$O(1/m)$$, then a law of large number argument shows that
   $$
   K_m \xrightarrow{m\rightarrow\infty} K
   $$
-  where $K$ is a fixed kernel, independent of the initialization.
+  where $$K$$ is a fixed kernel, independent of the initialization.
 
 - To show that inference with $K$ is an accurate depiction of neural networks in the large width limit, we need to show that the first order Taylor expansion is accurate.
-  - This can be done by analyzing continuous-time gradient descent, which shows $W(t)$ is close to $W(0)$. For example the trajectory-based analysis of Du et. al., which looks at $y - \hat{y}(t)$, and shows that this evolves like a kernel method (specifically, $K_m(t) \approx K_m(0) \approx K$).
-  - Liu et. al. shows that this isn't actually necessary: the first order Taylor expansion is accurate regardless because (for many architectures) we have contral on the Hessian norm $\|H\| = \|\nabla^2 f(x, W(0))\| = O(\frac{1}{\sqrt{m}})$.
+  - This can be done by analyzing continuous-time gradient descent, which shows $$W(t)$$ is close to $$W(0)$$. For example the trajectory-based analysis of Du et. al., which looks at $$y - \hat{y}(t)$$, and shows that this evolves like a kernel method (specifically, $$K_m(t) \approx K_m(0) \approx K$$).
+  - Liu et. al. shows that this isn't actually necessary: the first order Taylor expansion is accurate regardless because (for many architectures) we have contral on the Hessian norm $$\|H\| = \|\nabla^2 f(x, W(0))\| = O(\frac{1}{\sqrt{m}})$$.
 - Simon Du talk: https://www.youtube.com/watch?v=HvEGJUwQEO8
 - Lecture from UMD: https://www.youtube.com/watch?v=DObobAnELkU
 
@@ -99,7 +100,7 @@ Chaoyue Liu, Libin Zhu, Mikhail Belkin
 
   - This necessarily involves a loss function + optimization procedure (usually gradient flow)
 
-- This paper shows that linearity holds for wide neural networks regardless of the training procedure, by showing that the Hessian norm $\|H\| = O(\frac{1}{\sqrt{m}})$, and hence that the Taylor expansion
+- This paper shows that linearity holds for wide neural networks regardless of the training procedure, by showing that the Hessian norm $$\|H\| = O(\frac{1}{\sqrt{m}})$$, and hence that the Taylor expansion
   $$
   f(x, W(t)) \approx f(x, W(0)) + (W(0)-W(t))^\top\nabla f(x, W(0))
   $$
