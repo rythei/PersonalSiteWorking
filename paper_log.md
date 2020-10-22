@@ -1,3 +1,7 @@
+layout: post
+---
+[back](./)
+
 # Paper log
 
 ### Influence functions
@@ -6,14 +10,14 @@
 
 
 
-#### [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf) 
+#### [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
 
-Pang Wei Koh, Percy Liang 
+Pang Wei Koh, Percy Liang
 
 **Overview**
 
 - Introduces method for approximating the _influence_ of removing an individual point during training:
-- Define: 
+- Define:
   - $\hat{\theta} = \arg\min_\theta \frac{1}{n}\sum_{i=1}^n L(z_i, \theta)$
   - $\hat\theta_{-z} = \arg\min_\theta \frac{1}{n}\sum_{z_i\neq z} L(z_i, \theta)$
 
@@ -53,7 +57,7 @@ Pang Wei Koh, Percy Liang
 
 #### NTK Review
 
-- Let's be naive and Taylor expand a neural network 
+- Let's be naive and Taylor expand a neural network
   $$
   f(x, W(t)) \approx f(x, W(0)) + (W(0)-W(t))^\top\nabla f(x, W(0))
   $$
@@ -63,14 +67,14 @@ Pang Wei Koh, Percy Liang
   K_m(x,x') = \nabla f(x, W(0))^\top \nabla f(x', W(0))
   $$
 
-- It turns out that if the weights are initialized with variance $O(1/m)$, then a law of large number argument shows that 
+- It turns out that if the weights are initialized with variance $O(1/m)$, then a law of large number argument shows that
   $$
   K_m \xrightarrow{m\rightarrow\infty} K
   $$
   where $K$ is a fixed kernel, independent of the initialization.
 
-- To show that inference with $K$ is an accurate depiction of neural networks in the large width limit, we need to show that the first order Taylor expansion is accurate. 
-  - This can be done by analyzing continuous-time gradient descent, which shows $W(t)$ is close to $W(0)$. For example the trajectory-based analysis of Du et. al., which looks at $y - \hat{y}(t)$, and shows that this evolves like a kernel method (specifically, $K_m(t) \approx K_m(0) \approx K$). 
+- To show that inference with $K$ is an accurate depiction of neural networks in the large width limit, we need to show that the first order Taylor expansion is accurate.
+  - This can be done by analyzing continuous-time gradient descent, which shows $W(t)$ is close to $W(0)$. For example the trajectory-based analysis of Du et. al., which looks at $y - \hat{y}(t)$, and shows that this evolves like a kernel method (specifically, $K_m(t) \approx K_m(0) \approx K$).
   - Liu et. al. shows that this isn't actually necessary: the first order Taylor expansion is accurate regardless because (for many architectures) we have contral on the Hessian norm $\|H\| = \|\nabla^2 f(x, W(0))\| = O(\frac{1}{\sqrt{m}})$.
 - Simon Du talk: https://www.youtube.com/watch?v=HvEGJUwQEO8
 - Lecture from UMD: https://www.youtube.com/watch?v=DObobAnELkU
@@ -91,7 +95,7 @@ Chaoyue Liu, Libin Zhu, Mikhail Belkin
 
 **Overview**
 
-- Typically, the linearity of large neural networks is shown by demonstrating that $W(t)$ is close to $W(0)$ (called the 'lazy training' regime) 
+- Typically, the linearity of large neural networks is shown by demonstrating that $W(t)$ is close to $W(0)$ (called the 'lazy training' regime)
 
   - This necessarily involves a loss function + optimization procedure (usually gradient flow)
 
@@ -100,12 +104,3 @@ Chaoyue Liu, Libin Zhu, Mikhail Belkin
   f(x, W(t)) \approx f(x, W(0)) + (W(0)-W(t))^\top\nabla f(x, W(0))
   $$
   is always accurate in the wide-width limit.
-
-
-
-
-
-
-
-
-
