@@ -15,6 +15,8 @@ Since coming to Berkeley, I have been primarily interested in various theoretica
 
 Below is a list of papers I've co-authored.
 
+Cao, F., Motsch, S., Reamy, A., **Theisen, R**. _Asymptotic Flocking for the Three-Zone Model._ Mathematical Biosciences and Engineering (2020). [[AIMS](https://www.aimspress.com/article/10.3934/mbe.2020391)]
+
 **Theisen, R.**, Klusowski, J. M., Mahoney, M. W. _Good linear classifiers are abundant in the interpolating regime_. Submitted, 2020. [[ArXiv](https://arxiv.org/abs/2006.12625)]
 
 **Theisen, R.**, Klusowski, J. M., Wang, H., Keskar, N., Xiong, C., Socher, R. _Global Capacity Measures for Deep ReLU Networks via Path Sampling_. Submitted, 2019. [[ArXiv](https://arxiv.org/abs/1910.10245)]
