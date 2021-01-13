@@ -15,7 +15,7 @@ Since coming to Berkeley, I have been primarily interested in various theoretica
 
 Below is a list of papers I've co-authored.
 
-Cao, F., Motsch, S., Reamy, A., **Theisen, R**. _Asymptotic Flocking for the Three-Zone Model._ Mathematical Biosciences and Engineering (2020). [[AIMS](https://www.aimspress.com/article/10.3934/mbe.2020391)]
+Cao, F., Motsch, S., Reamy, A., **Theisen, R**. _Asymptotic Flocking for the Three-Zone Model._ Mathematical Biosciences and Engineering, 2020. [[AIMS](https://www.aimspress.com/article/10.3934/mbe.2020391)]
 
 **Theisen, R.**, Klusowski, J. M., Mahoney, M. W. _Good linear classifiers are abundant in the interpolating regime_. Submitted, 2020. [[ArXiv](https://arxiv.org/abs/2006.12625)]
 
