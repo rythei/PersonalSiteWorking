@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-I am a Ph.D. student at U.C. Berkeley interested in statistics and machine learning, advised by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/). I also work closely with [Jason Klusowski](https://jasonklusowski.github.io) at Princeton. Before coming to Berkeley, I was a student at Arizona State University, where I studied mathematics and economics, and completed a master's thesis under [Sebastien Motsch](http://seb-motsch.com/) in the mathematics department. Outside of university, I was recently a research intern at Salesforce Research, and have also worked for Amazon.com in the past. See my [CV](./assets/files/Theisen_AcademicCV.pdf) for more.
+I am a Ph.D. student at U.C. Berkeley interested in statistics and machine learning, advised by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/). I also work closely with [Jason Klusowski](https://jasonklusowski.github.io) at Princeton. Before coming to Berkeley, I was a student at Arizona State University, where I studied mathematics and economics, and completed a master's thesis under [Sebastien Motsch](http://seb-motsch.com/) in the mathematics department. Outside of university, I spent two summers as a research intern at Salesforce Research, and have also worked for Amazon.com in the past. See my [CV](./assets/files/Theisen_AcademicCV.pdf) for more.
 
 ## Photography
 
