@@ -17,7 +17,7 @@ Below is a list of papers I've co-authored.
 
 #### Machine Learning
 
-**Theisen, R.**, Klusowski, J. M., Mahoney, M. W. _Good linear classifiers are abundant in the interpolating regime_. International Conference on Artificial Intelligence and Statistics, 2021. [[PMLR](http://proceedings.mlr.press/v130/theisen21a.html), [ArXiv](https://arxiv.org/abs/2006.12625)]
+**Theisen, R.**, Klusowski, J. M., Mahoney, M. W. _Good Classifiers are Abundant in the Interpolating Regime_. International Conference on Artificial Intelligence and Statistics, 2021. [[PMLR](http://proceedings.mlr.press/v130/theisen21a.html), [ArXiv](https://arxiv.org/abs/2006.12625)]
 
 **Theisen, R.**, Klusowski, J. M., Wang, H., Keskar, N., Xiong, C., Socher, R. _Global Capacity Measures for Deep ReLU Networks via Path Sampling_. Submitted, 2019. [[ArXiv](https://arxiv.org/abs/1910.10245)]
 
