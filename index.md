@@ -15,9 +15,9 @@ Since coming to Berkeley, I have been primarily interested in various theoretica
 
 Below is a list of papers I've co-authored.
 
-- Yang, Y., Hodgkinson, L., **Theisen, R.**, Zou, J., Gonzalez J. E., Ramchandran, K., Mahoney, M.W. _Taxonomizing Local Versus Global Structure in Neural Network Loss Landscapes._ Submitted, 2021. [[ArXiv](https://arxiv.org/abs/2107.11228)]
+- Yang, Y., Hodgkinson, L., **Theisen, R.**, Zou, J., Gonzalez J. E., Ramchandran, K., Mahoney, M.W. _Taxonomizing Local Versus Global Structure in Neural Network Loss Landscapes._ Neural Information Processing Systems, 2021. [[ArXiv](https://arxiv.org/abs/2107.11228)]
 
-- **Theisen, R.**, Wang, H., Varshney L. R., Xiong, C., Socher, R. _Evaluating State-of-the-Art Classification Models Against Bayes Optimality._ Submitted, 2021. [[ArXiv](https://arxiv.org/abs/2106.03357)]
+- **Theisen, R.**, Wang, H., Varshney L. R., Xiong, C., Socher, R. _Evaluating State-of-the-Art Classification Models Against Bayes Optimality._ Neural Information Processing Systems, 2021. [[ArXiv](https://arxiv.org/abs/2106.03357)]
 
 - **Theisen, R.**, Klusowski, J. M., Mahoney, M. W. _Good Classifiers are Abundant in the Interpolating Regime_. International Conference on Artificial Intelligence and Statistics, 2021. [[PMLR](http://proceedings.mlr.press/v130/theisen21a.html), [ArXiv](https://arxiv.org/abs/2006.12625)]
 
