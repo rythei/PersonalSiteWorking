@@ -15,15 +15,17 @@ Since coming to Berkeley, I have been primarily interested in various theoretica
 
 Below is a list of papers I've co-authored.
 
-- Yang, Y., Hodgkinson, L., **Theisen, R.**, Zou, J., Gonzalez J. E., Ramchandran, K., Mahoney, M.W. _Taxonomizing Local Versus Global Structure in Neural Network Loss Landscapes._ Conference on Neural Information Processing Systems, 2021. [[ArXiv](https://arxiv.org/abs/2107.11228)]
+- Yang, Y., **Theisen, R.**, Hodgkinson, L., Gonzalez J. E., Ramchandran, K., Martin, C.H. Mahoney, M.W. _Evaluating natural language processing models with generalization metrics that do not need access to any training or testing data._ Preprint, 2022. [[ArXiv](https://arxiv.org/pdf/2202.02842)]
 
-- **Theisen, R.**, Wang, H., Varshney L. R., Xiong, C., Socher, R. _Evaluating State-of-the-Art Classification Models Against Bayes Optimality._ Conference on Neural Information Processing Systems, 2021. [[ArXiv](https://arxiv.org/abs/2106.03357)]
+- Yang, Y., Hodgkinson, L., **Theisen, R.**, Zou, J., Gonzalez J. E., Ramchandran, K., Mahoney, M.W. _Taxonomizing Local Versus Global Structure in Neural Network Loss Landscapes._ Conference on Neural Information Processing Systems, 2021. [[NeurIPS](https://papers.nips.cc/paper/2021/hash/9b72e31dac81715466cd580a448cf823-Abstract.html), [ArXiv](https://arxiv.org/abs/2107.11228)]
+
+- **Theisen, R.**, Wang, H., Varshney L. R., Xiong, C., Socher, R. _Evaluating State-of-the-Art Classification Models Against Bayes Optimality._ Conference on Neural Information Processing Systems, 2021. [[NeurIPS](https://papers.nips.cc/paper/2021/hash/4e0ccd2b894f717df5ebc12f4282ee70-Abstract.html), [ArXiv](https://arxiv.org/abs/2106.03357)]
 
 - **Theisen, R.**, Klusowski, J. M., Mahoney, M. W. _Good Classifiers are Abundant in the Interpolating Regime_. International Conference on Artificial Intelligence and Statistics, 2021. [[PMLR](http://proceedings.mlr.press/v130/theisen21a.html), [ArXiv](https://arxiv.org/abs/2006.12625)]
 
 - Cao, F., Motsch, S., Reamy, A., **Theisen, R**. _Asymptotic Flocking for the Three-Zone Model._ Mathematical Biosciences and Engineering, 2020. [[AIMS](https://www.aimspress.com/article/10.3934/mbe.2020391)]
 
-- **Theisen, R.**, Klusowski, J. M., Wang, H., Keskar, N., Xiong, C., Socher, R. _Global Capacity Measures for Deep ReLU Networks via Path Sampling_. Submitted, 2019. [[ArXiv](https://arxiv.org/abs/1910.10245)]
+- **Theisen, R.**, Klusowski, J. M., Wang, H., Keskar, N., Xiong, C., Socher, R. _Global Capacity Measures for Deep ReLU Networks via Path Sampling_. Preprint, 2019. [[ArXiv](https://arxiv.org/abs/1910.10245)]
 
 - Weber, D., **Theisen, R.**, Motsch, S. _Deterministic Versus Stochastic Consensus Dynamics on Graphs_. Journal of Statistical Physics, 2019. [[JSP](https://link.springer.com/article/10.1007/s10955-019-02293-5), [ArXiv](https://arxiv.org/abs/1901.10756)]
 
