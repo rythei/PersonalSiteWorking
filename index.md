@@ -15,7 +15,9 @@ Since coming to Berkeley, I have been primarily interested in various theoretica
 
 Below is a list of papers I've co-authored.
 
-- Yang, Y., **Theisen, R.**, Hodgkinson, L., Gonzalez J. E., Ramchandran, K., Martin, C.H. Mahoney, M.W. _Evaluating natural language processing models with generalization metrics that do not need access to any training or testing data._ Preprint, 2022. [[ArXiv](https://arxiv.org/pdf/2202.02842)]
+- **Theisen, R.**, Kim, H., Yang, Y, Hodgkinson, L., Mahoney, M.W. _When are ensembles really effective?_ Preprint, 2023. [[ArXiv](https://arxiv.org/abs/2305.12313)]
+
+- Yang, Y., **Theisen, R.**, Hodgkinson, L., Gonzalez J. E., Ramchandran, K., Martin, C.H. Mahoney, M.W. _Evaluating natural language processing models with generalization metrics that do not need access to any training or testing data._ Preprint, 2022. [[ArXiv](https://arxiv.org/abs/2202.02842)]
 
 - Yang, Y., Hodgkinson, L., **Theisen, R.**, Zou, J., Gonzalez J. E., Ramchandran, K., Mahoney, M.W. _Taxonomizing Local Versus Global Structure in Neural Network Loss Landscapes._ Conference on Neural Information Processing Systems, 2021. [[NeurIPS](https://papers.nips.cc/paper/2021/hash/9b72e31dac81715466cd580a448cf823-Abstract.html), [ArXiv](https://arxiv.org/abs/2107.11228)]
 
