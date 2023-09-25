@@ -6,10 +6,6 @@ layout: default
 
 I am a Machine Learning Scientist at [Harmonic Discovery](https://www.harmonicdiscovery.com). I completed my PhD at UC Berkeley under [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), where I worked on fundamental research in machine learning. Before Berkeley, I was a student at Arizona State University, where I studied mathematics and economics, and completed a master's thesis under [Sebastien Motsch](http://seb-motsch.com/) in the mathematics department. I was also the machine learning lead in the [Luminosity Lab](https://theluminositylab.com). Outside of university, I spent two summers as a research intern at Salesforce Research, and have also worked for Amazon.com in the past. See my [CV](./assets/files/Theisen_CV_25sep2023.pdf) for more.
 
-## Photography
-
-I love to travel and spend as much time outdoors as possible. I always take my camera with me wherever I go - feel free to check out some of my [photos](https://www.instagram.com/rythei).
-
 ## Research
 During my PhD, I was primarily interested in theoretical aspects of deep learning, mainly been focused on the question of _generalization_. Namely, I'm interested in when and how we can fit extremely complicated and expressive models to data, and expect these models to perform well on new, unseen data.
 
@@ -34,6 +30,10 @@ Below is a list of papers I've co-authored.
 - Weber, D., **Theisen, R.**, Motsch, S. _Deterministic Versus Stochastic Consensus Dynamics on Graphs_. Journal of Statistical Physics, 2019. [[JSP](https://link.springer.com/article/10.1007/s10955-019-02293-5), [ArXiv](https://arxiv.org/abs/1901.10756)]
 
 - **Theisen, R.**, Masters Thesis advised by Sebastien Motsch. _Convergence Results for Two Models of Interaction_, 2018. [[Download](./assets/files/masters_thesis.pdf)]
+
+## Photography
+
+I love to travel and spend as much time outdoors as possible. I always take my camera with me wherever I go - feel free to check out some of my [photos](https://www.instagram.com/rythei).
 
 ## Contact
 
