@@ -4,16 +4,18 @@ layout: default
 
 ## About Me
 
-I am a PhD student at UC Berkeley interested in statistics and machine learning, advised by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/). I also work closely with [Jason Klusowski](https://jasonklusowski.github.io) at Princeton. Before coming to Berkeley, I was a student at Arizona State University, where I studied mathematics and economics, and completed a master's thesis under [Sebastien Motsch](http://seb-motsch.com/) in the mathematics department. I was also the machine learning lead in the [Luminosity Lab](https://theluminositylab.com). Outside of university, I spent two summers as a research intern at Salesforce Research, and have also worked for Amazon.com in the past. See my [CV](./assets/files/Theisen_AcademicCV.pdf) for more.
+I am a Machine Learning Scientist at [Harmonic Discovery](https://www.harmonicdiscovery.com). I completed my PhD at UC Berkeley under [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), where I worked on machine learning. Before Berkeley, I was a student at Arizona State University, where I studied mathematics and economics, and completed a master's thesis under [Sebastien Motsch](http://seb-motsch.com/) in the mathematics department. I was also the machine learning lead in the [Luminosity Lab](https://theluminositylab.com). Outside of university, I spent two summers as a research intern at Salesforce Research, and have also worked for Amazon.com in the past. See my [CV](./assets/files/Theisen_CV_25sep2023.pdf) for more.
 
 ## Photography
 
 I love to travel and spend as much time outdoors as possible. I always take my camera with me wherever I go - feel free to check out some of my [photos](https://www.instagram.com/rythei).
 
 ## Research
-Since coming to Berkeley, I have been primarily interested in various theoretical aspects of deep learning, though lately this has mainly been focused on the question of _generalization_. Namely, I'm interested in when and how we can fit extremely complicated and expressive models to data, and expect these models to perform well on new, unseen data.
+During my PhD, I was primarily interested in theoretical aspects of deep learning, mainly been focused on the question of _generalization_. Namely, I'm interested in when and how we can fit extremely complicated and expressive models to data, and expect these models to perform well on new, unseen data.
 
 Below is a list of papers I've co-authored.
+
+- **Theisen, R.**, PhD Thesis advised by Michael W. Mahoney. _Beyond Worst-Case Generalization in Modern Machine Learning_. [[View](https://escholarship.org/uc/item/62j5g7vd)]
 
 - **Theisen, R.**, Kim, H., Yang, Y, Hodgkinson, L., Mahoney, M.W. _When are ensembles really effective?_ Preprint, 2023. [[ArXiv](https://arxiv.org/abs/2305.12313)]
 
@@ -35,4 +37,4 @@ Below is a list of papers I've co-authored.
 
 ## Contact
 
-Email: theisen [at] berkeley.edu
+Email: ryanctheisen [at] gmail.com
