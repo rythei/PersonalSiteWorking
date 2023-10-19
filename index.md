@@ -7,7 +7,9 @@ layout: default
 I am a Machine Learning Scientist at [Harmonic Discovery](https://www.harmonicdiscovery.com). I completed my PhD at UC Berkeley under [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), where I worked on fundamental research in machine learning. Before Berkeley, I was a student at Arizona State University, where I studied mathematics and economics, and completed a master's thesis under [Sebastien Motsch](http://seb-motsch.com/) in the mathematics department. I was also the machine learning lead in the [Luminosity Lab](https://theluminositylab.com). Outside of university, I spent two summers as a research intern at Salesforce Research, and have also worked for Amazon.com in the past. See my [CV](./assets/files/Theisen_CV_25sep2023.pdf) for more.
 
 ## Research
-During my PhD, I was primarily interested in theoretical aspects of deep learning, mainly been focused on the question of _generalization_. Namely, I'm interested in when and how we can fit extremely complicated and expressive models to data, and expect these models to perform well on new, unseen data.
+During my PhD, I was primarily interested in theoretical aspects of deep learning, mainly focused on the question of _generalization_. Namely, I'm interested in when and how we can fit extremely complicated and expressive models to data, and expect these models to perform well on new, unseen data.
+
+More recently, I have become interested in applications of machine learning to the field of drug discovery.
 
 Below is a list of papers I've co-authored.
 
