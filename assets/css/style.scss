@@ -1,7 +1,4 @@
----
----
-
-@import "jekyll-theme-minimal";
+--- --- @import "jekyll-theme-minimal";
 @import "{{ site.theme }}";
 
 
@@ -9,9 +6,10 @@
 
 
 a {
-    color: #393939;
-
+    color: #0066cc;
+    /* Change this to your preferred color */
     text-decoration: none;
+    /* This removes the underline */
 }
 
 a:hover {
