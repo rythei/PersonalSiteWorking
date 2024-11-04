@@ -13,7 +13,7 @@ More recently, I have become interested in applications of machine learning to t
 
 Below is a list of papers I've co-authored.
 
-- Kim, H., Hodgkinson, L., **Theisen, R.**,  Mahoney, M.W. [_How many classifiers do we need?_]() Conference on Neural Information Processing Systems, 2024.
+- Kim, H., Hodgkinson, L., **Theisen, R.**,  Mahoney, M.W. [_How many classifiers do we need?_](https://arxiv.org/abs/2411.00328) Conference on Neural Information Processing Systems, 2024.
 
 - **Theisen, R.**, Wang, T., Ravikumar, B., Rahman, R., Cichonska, A., [_Leveraging multiple data types for improved compound-kinase bioactivity prediction_.](https://www.nature.com/articles/s41467-024-52055-5) Nature Communications, 2024.
 
